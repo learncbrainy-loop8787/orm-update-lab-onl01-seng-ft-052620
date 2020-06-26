@@ -3,7 +3,7 @@ require_relative "../config/environment.rb"
 class Student
 attr_accessor :id, :name, :grade
 
-  end
+
 
   def self.create_table
     sql = <<-SQL 
