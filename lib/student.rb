@@ -58,3 +58,4 @@ require_relative "../config/environment.rb"
     DB[:conn].execute(sql, self.name, self.grade, self.id)
   end
 end
+end
